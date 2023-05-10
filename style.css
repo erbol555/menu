@@ -1,0 +1,225 @@
+
+.header_menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.dishes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 40px 0;
+  
+
+}
+.section{
+  background-color: #999;
+  max-width: 620px;
+  border-radius: 20px;
+}
+
+.dishes h2 {
+  margin-bottom: 10px;
+}
+
+.dishes p {
+  margin-bottom: 20px;
+}
+
+/* Скрываем все блоки блюд по умолчанию */
+.dishes div {
+  display: none;
+}
+
+/* Отображаем блок блюда при наличии соответствующего хеша в URL */
+.dishes div:target {
+  display: block;
+}
+.drop {
+  display: none;
+  position: absolute;
+  background-color: #999;
+  margin: 20px 0;
+  border-radius: 10px;
+ 
+
+}
+.menu ul li:hover .drop{
+  display: block;
+  max-width: 120px;
+}
+.section_img {
+  width: 450px;
+  height: 350px;
+}
+
+.svg{
+  width: 20px;
+  height: 20px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+    
+ 
+}
+.section h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+}
+.section p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+text-decoration: none;
+color: black;
+}
+.section  button{
+ 
+  background-color: #0077cc;
+  border-radius: 4px;
+  border: none;
+  margin: 10px 0 20px 170px;
+  padding: 10px 30px;
+}
+.buton{
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  
+  font-size: 16px;
+
+}
+.drop li a{
+  padding: 10px 0;
+  width: 120px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+/*------------------------------ footer------------------------ */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+footer h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  border-radius: 50%;
+  transition: all 0.2s ease-out;
+}
+
+.social-links a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.row h4 {
+  display: flex;
+  justify-content: center;
+
+  font-size: 40px;
+}
+.row p {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footer_section li a{
+  padding: 20px;
+}
+
+
